@@ -6,7 +6,7 @@ Add `path-to-repo/src` to `PYTHONPATH`.
 CD into `path-to-repo` and do `pip install -e .` which will install the package `regrad` in place.
 
 # 2. Why does it work?
-In short, it turns out that the answer to random design linear regression from Gaussian parameter perturbations `X` around a point `Theta` to its loss `f(X)` gives you the gradient of the expected loss `E[f(X)]` under the same perturbation.
+In short, it turns out that the answer to random design linear regression from Gaussian parameter perturbations `X` around a point `Theta` to its loss `f(X)` gives you the gradient of the expected loss `E[f(X)]` under the same perturbation. It works with Gaussian specifically because the form of gradient of its log pdf.
 
 [Derivations are Here](https://www.overleaf.com/5496831956djbqzwtrccgb)
 
