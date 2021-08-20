@@ -12,10 +12,10 @@ In short, it turns out that the answer to random design linear regression from G
 
 # 3. See it in action
 
-`f(x) = int(sin(x))`
+`f(x) = round(sin(x))`
 
 <img src="https://github.com/zhichul/regression-gradient-estimator/blob/main/plots/sin.png" alt="f(x) = sin(x)" width="800"/>
 
-`f(x, y) = int(0.1 * (x ** 2 - y ** 2))`
+`f(x, y) = round(0.1 * (x ** 2 - y ** 2))`
 
 <img src="https://github.com/zhichul/regression-gradient-estimator/blob/main/plots/saddle.png" alt="f(x,y) = x ** 2 - y ** 2" width="800"/>
