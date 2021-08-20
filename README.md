@@ -11,5 +11,11 @@ In short, it turns out that the answer to random design linear regression from G
 [Derivations are Here](https://www.overleaf.com/5496831956djbqzwtrccgb)
 
 # 3. See it in action
-<img src="https://github.com/zhichul/regression-gradient-estimator/blob/main/plots/sin.png" alt="f(x) = sin(x)" width="200"/>
-<img src="https://github.com/zhichul/regression-gradient-estimator/blob/main/plots/saddle.png" alt="f(x,y) = x ** 2 - y ** 2" width="200"/>
+
+`f(x) = int(sin(x))`
+
+<img src="https://github.com/zhichul/regression-gradient-estimator/blob/main/plots/sin.png" alt="f(x) = sin(x)" width="800"/>
+
+`f(x, y) = int(0.1 * (x ** 2 - y ** 2))`
+
+<img src="https://github.com/zhichul/regression-gradient-estimator/blob/main/plots/saddle.png" alt="f(x,y) = x ** 2 - y ** 2" width="800"/>
