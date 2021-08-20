@@ -1,4 +1,4 @@
-from noisy_gradient.utils import nd_riemann_sum
+from regrad.utils import nd_riemann_sum
 from mpl_toolkits import mplot3d
 from tqdm import tqdm
 import scipy.stats as st
